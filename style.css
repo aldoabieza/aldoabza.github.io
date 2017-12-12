@@ -1,0 +1,410 @@
+/******************google fonts**********************/
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+/****************************************************/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/**************** Stle Navbar ********************/
+
+.navbar{
+  background-color:  #222222 !important;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 13px !important;
+  opacity: 0.9;
+  margin-bottom: 0;
+  border: 0;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+}
+.navbar a{
+  color: #fff !important;
+  opacity: 0.7;
+}
+.navbar a:hover{
+  opacity: 1;
+  background-color: #111111;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/***************** End Stle Navbar ********************/
+
+
+
+/***************** Stle Header ********************/
+
+.header{
+  height:660px;
+  width: 100%;
+  padding: 90px 0 30px;
+  margin-top: 50px;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/background.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header h1{
+  font-size: 32px;
+  font-weight: 900;
+  padding-top: 30px;
+  font-family: 'Spectral SC', serif;
+  text-align: center;
+  letter-spacing: 8px;
+  color: white;
+}
+p.describe-text{
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: white;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  margin-top: 45px;
+}
+
+
+/***************** End Stle Header ********************/
+
+/***************** Style Services ******************/
+
+.services{
+  padding: 30px 0 80px;
+  text-align: center;
+  background-color: white;
+}
+.services h2{
+  color: #4c4c4c;
+  margin: 20px 0 80px;
+  font-size: 30px;
+}
+.services h4{
+  color: #4c4c4c
+  margin: 20px 0 20px;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+.services p{
+  padding-bottom: 40px;
+  font-size: 15px;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  letter-spacing: 3px;
+}
+.services i {
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  padding: 25px 20px;
+  border-radius: 50%;
+  color: #fff;
+}
+.services span{
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  padding: 25px 20px;
+  border-radius: 50%;
+  background-color: #6699cc;
+  color: #fff;
+}
+.services span:hover{
+  background-color: black;
+}
+
+.services button{
+    color: white;
+    background-color: #26a58d;
+    border: 2px solid #26a58d;
+}
+.services button:hover{
+  color: white;
+  background-color:#2dc7aa;
+  border: 2px solid #2dc7aa;
+}
+/***************** End Style Services ******************/
+
+/***************** Style Portfolio ******************/
+#portfolio{
+  padding: 50px 30px 80px;
+  background-image: url(img/SplitShire-08320.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#portfolio h2{
+  letter-spacing: 5px;
+}
+#portfolio h4{
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+}
+.bg-grey{
+  background-color: #f6f6f6;
+}
+h2.title-carousel{
+  color: white;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 0 18px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    filter: grayscale(1);
+    border-top-left-radius: 5px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 5px;
+    box-shadow: 3px 0 18px;
+}
+.thumbnail img:hover{
+  filter:none;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #0e8389;
+    cursor: pointer;
+}
+.carousel-indicators li {
+    border-color: #0e8389;
+}
+.carousel-indicators li.active {
+    background-color: #0e8389;
+}
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+    color: white;
+}
+.item span, .item small {
+    font-style: normal;
+    color: white;
+}
+
+/***************** End Style Portfolio ******************/
+
+/****************** Style Pricing ******************/
+.pricing{
+  background-color: #4880d4;
+  padding: 40px 0 80px;
+  text-align: center;
+}
+h2.title-pricing,
+h4.pricing-h4{
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
+h4.pricing-h4 {
+  padding-bottom: 40px;
+}
+.pricing h1{
+  color: white;
+  background-color: #f53e3e;
+  margin: 0 auto;
+  padding: 30px;
+}
+.pricing i{
+  margin-left: 5px;
+}
+.pricing .packages{
+  padding-bottom: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.pricing .packages:hover{
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.packages li{
+  display: block;
+  list-style: none;
+  padding: 5px;
+}
+.packages h4,
+.packages b{
+  color: #4c4c4c;
+}
+.packages p,
+.packages li{
+  color: #737373;
+}
+.packages button{
+  margin-top: 10px;
+  background-color: #f53e3e;
+  border: 1px solid #f53e3e;
+  color: white;
+}
+.packages button:hover{
+  background-color: #f12f2f;
+  border: 1px solid #f12f2f;
+  color: white;
+}
+
+/****************** End Style Pricing ******************/
+
+
+/****************** Style Clients ******************/
+
+.clients {
+  padding: 50px 0 80px;
+  background-color: #e2e6ea;
+  text-align: center;
+  color: #fff;
+}
+
+.clients h2{
+  color: black;
+}
+.clients p {
+  padding-bottom: 40px;
+}
+.clients img{
+  width: 200px;
+  opacity: 0.6;
+  cursor: pointer;
+  margin: 40px 0;
+  transition: all 500ms ease-in-out;
+}
+
+.clients li{
+  list-style: none;
+}
+
+.clients li:hover img{
+  opacity: 1;
+}
+
+/****************** End Clients ******************/
+
+/****************** Contact ******************/
+
+.contact{
+  padding: 30px 50px 80px;
+}
+.contact h2{
+  margin: 20px 0 67px;
+  text-align: center;
+}
+
+.contact p{
+  font-size:20px;
+  font-weight: normal;
+}
+.contact .input-group{
+  margin-bottom: 300px;
+}
+.form-control{
+  height: 43px;
+}
+#name, #email{
+  font-size: 18px;
+  border: 2px solid black;
+}
+textarea.form-control{
+  height: 190px;
+  font-size: 18px;
+  border: 2px solid black;
+}
+.contact .btn{
+  width: 20%;
+  height: 41px;
+  border: 1px solid #f08080;
+  background-color: #da6e6e;
+
+  font-weight: 700;
+  font-size: 21px;
+  color: white;
+  position: center;
+}
+.contact .btn:hover{
+  background-color: #f08080;
+}
+
+/****************** End Contact ******************/
+
+
+
+/****************** Footer ******************/
+
+.footer{
+  padding: 30px;
+  color:#cccccc;
+  background-color: #222222;
+}
+.footer .sosmed{
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.footer h4{
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 30px;
+  letter-spacing: 4px;
+}
+.footer p{
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+.footer .copy{
+  margin-top: 30px;
+  letter-spacing: 3px;
+}
+p.cright-text{
+  letter-spacing: 4px;
+}
+/****************** End Footer ******************/
+
+#map{
+  width: 100%;
+  height:400px;
+}
+
+/* Style css Media Queries for Smartphone Screen (768px) */
+@media screen and (max-width:768px){
+  .header{
+    height: 100%;
+    margin-top: 0px;
+  }
+  .header h1{
+    letter-spacing: 2px;
+  }
+  .bg-form{
+    width: 20%
+    height:40%;
+    margin-top: 50px;
+  }
+  #name{
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width:992px){
+  .header{
+    height: 100%;
+  }
+  .navbar{
+    letter-spacing: normal;
+  }
+}
